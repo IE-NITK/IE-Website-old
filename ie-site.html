@@ -4,7 +4,6 @@
 
 <body>
   {{>navbar}}
-  {{>home}}
 </body>
 
 <template name="navbar">
@@ -25,10 +24,10 @@
       </div>
       <div class="collapse navbar-collapse" id="collapse">
         <ul class="navbar-nav nav navbar-right">
-          <li> <a href="#">Home </a></li>
-          <li> <a href="#">Blog </a></li>
-          <li> <a href="#">SIG's </a></li>
-          <li> <a href="#">Events </a></li>
+          <li> <a href="/">Home </a></li>
+          <li> <a href="/blog">Blog </a></li>
+          <li> <a href="/sigs">SIG's </a></li>
+          <li> <a href="/events">Events </a></li>
         </ul>
       </div>
     </div>
@@ -36,7 +35,31 @@
 </template>
 
 <template name="home">
+  <div class="container">
+    <div class="page-header">
+      <h1>Welcome to the IE-NITK Website!</h1>
+    </div>
+  </div>
+</template>
+
+<template name="blog">
   <div class="page-header container">
-    <h1>Welcome to the IE-NITK Website!</h1>
+    <h1>Blog</h1>
+  </div>
+</template>
+
+<template name="sigs">
+  <div class="container">
+    <div class="page-header">
+      <h1>SIGS</h1>
+    </div>
+  </div>
+</template>
+
+<template name="events">
+  <div class="container">
+    <div class="page-header">
+      <h1>Events</h1>
+    </div>
   </div>
 </template>
