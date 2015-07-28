@@ -11,7 +11,7 @@ Router.route('/', function () {
   this.render('home');
 });
 
-Router.route('/blog');
+Router.route('/form');
 
 Router.route('/sigs');
 
