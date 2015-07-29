@@ -114,7 +114,8 @@
           <h1>Recruitment Form</h1>
         </div>
         <div>
-        
+       	  {{>insertResume}}
+        </div>
         
       </div>
     </template>
