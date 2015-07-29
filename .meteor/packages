@@ -9,3 +9,6 @@ autopublish
 insecure
 twbs:bootstrap
 iron:router
+aldeed:autoform
+aldeed:collection2
+materialize:materialize
