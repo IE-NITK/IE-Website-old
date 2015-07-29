@@ -10,10 +10,12 @@
 }
 
 .jumbotron {
-  background-image:url('http://i.imgur.com/Rdhdn.jpg');
+  background-image:url('/images/jumbo.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
+	margin-bottom: 0;
+	margin-top: 0;
 }
 
 .jumbotron .container {
@@ -31,6 +33,10 @@
 .jumbotron p {
   font-size: 20px;
   color: #fff;
+}
+
+.nav-wrapper {
+	margin-bottom:0;
 }
 
 .learn-more {
