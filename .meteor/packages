@@ -12,3 +12,5 @@ iron:router
 aldeed:autoform
 aldeed:collection2
 materialize:materialize
+accounts-password
+accounts-ui
